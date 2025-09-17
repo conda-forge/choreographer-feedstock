@@ -1,6 +1,6 @@
 context:
   name: choreographer
-  version: "1.0.10"
+  version: "1.1.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-    sha256: 7adf84a0d6a6054386d5cce013fdcadb2426479e49c9b0cb06af7d3712ed263c
+    sha256: 45b8c9c6eea1dd9d7f2ce3a2c66e7680e805420bbe3f8aefaaa8281fdb1645bd
 
 build:
   number: 0
